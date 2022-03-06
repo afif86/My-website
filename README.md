@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://www.canva.com/design/DAE6Nv0pZhg/cLszSodPDZJzWL4zLmfN6g/watch?utm_content=DAE6Nv0pZhg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" alt="Project logo"></a>
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Project Title</h3>
