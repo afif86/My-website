@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://drive.google.com/file/d/1Mm1SOsozFQWprQkEgZ4MBgF0j-3K7_Px/view?usp=sharing" alt="Project logo"></a>
+ <img width=200px height=200px src="https://raw.githubusercontent.com/afif86/My-website/master/src/img/1.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Project Title</h3>
