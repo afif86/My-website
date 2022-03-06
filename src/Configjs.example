@@ -1,0 +1,3 @@
+const creditional = { emailAPI: 'sample' }
+
+export default creditional
