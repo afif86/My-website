@@ -49,22 +49,12 @@ installing the latest vrsion of node.js on your computer.
 ### Installing
 
 Open the terminal in VScode and execute these command (Typical react app)
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
 
 ```
 npm install
 npm start
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
 
 ## 🔧 Running the tests <a name = "tests"></a>
 
