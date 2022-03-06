@@ -34,7 +34,7 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Write about 1-2 paragraphs describing the purpose of your project.
+Single page personal website with react.js. Note that each section of the website works as a part of a slider. 
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
