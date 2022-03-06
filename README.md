@@ -43,21 +43,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Open the terminal in VScode and execute these command (Typical react app)
+installing the latest vrsion of node.js on your computer.  
 
-```
-npm install
-npm start
-```
 
 ### Installing
 
+Open the terminal in VScode and execute these command (Typical react app)
 A step by step series of examples that tell you how to get a development env running.
 
 Say what the step will be
 
 ```
-Give the example
+npm install
+npm start
 ```
 
 And repeat
