@@ -11,7 +11,7 @@ class About extends Component {
                     <h2 className="title">ABOUT</h2>
                 <div className="section-des">
                     <h3>
-                        Viverra tristique placerat  massa est consectetur quisque nu fames lorem ipsum dolor sit amet consectetu.
+                    I’m responsible and dutiful, a little perfectionist and workaholic which makes the best of me come out of my job.
                     </h3>
                         
                     </div>
@@ -41,14 +41,16 @@ class About extends Component {
 
                     <div className="about-text content-670">
                         <p>
-                            Nam ultrices ultrices nec tortor pulvinar fermentum mi. Sociis sit tristique sagittis, mauris volutpat estera phasellus. Varius nec orci, quam augue lorem lines pellentesque non id. Tristique amet volutpat nunc euismod. Mauris <a href="#">felis at quam</a> sollicitudin est sempe vulputate id in nullam. Purus tincidunt maga ut turpis eu, eu enim. Nisl porttitor elit risus velit urna morbit mauris at proin laoreet lobortis urna aliquam setera fermentum sit iaculis vitae hendrerit et. Arcu ac est dictum lorem ispum dolor sit amet nunc usrus seio.
+                        I’m detail-oriented which helps me in designing websites that deliver superb user experience.<br/>
+                        Highly organized and like to classify everything. So, when I code, the result is always a clean code with appropriate descriptive names and 
+                        useful comments, which help colleagues understand the code faster and easier. <br/>
+                        I’m a problem solver by nature and most of the time, I can find the easiest solution when a problem comes out.
                         </p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in sat massa consectetur quisque. Nunc aces fames lectus in libero aliquet ertare feraso est lorem nunc dolor sit amet settera aces volutpat in voltare lupar est phasellus.
+                        Sometimes, I tend to be too critical about what I design. If my work doesn’t live up to the expectations I have
+                         - I might end up redoing it. This, however, leads to higher customer satisfaction. 
                         </p>
-                        <p>
-                            Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat aecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet sei tristique set volutpat vulputate est phasellus. Volutpat faucibus per praesent aced no nuncare voltare per settera lorem ipsum dolor loboritas prion mauris varius est.
-                        </p>
+                        
                     </div>
 
                     <img className="signature" src={singature} alt=""/>

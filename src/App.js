@@ -5,13 +5,15 @@ import Skills from './Skills';
 import About from './About';
 import Contact from './Contact'
 import handleViewport from 'react-in-viewport';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { NumContext } from './Numcontext/Numcontext';
 
 
 function App() {
+  const [chck, setChck] = useState(0)
   
   const [num, setNum] = useState(1);
+  // useEffect(() => window.addEventListener('scroll', (e) =>setChck(chck+1)))
   
   
   return (

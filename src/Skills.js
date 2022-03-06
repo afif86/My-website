@@ -7,10 +7,10 @@ import handleViewport from 'react-in-viewport';
 import { NumContext } from './Numcontext/Numcontext';
 
 const Skill = ({ inViewport, enterCount }) => {
-    console.log(inViewport)
+
     const { number, setter } = useContext(NumContext)
-        console.log(number)
-    if (inViewport) {setter(2)} 
+      
+    if (inViewport) { console.log('oomad')} 
     
        
         return (
@@ -21,15 +21,14 @@ const Skill = ({ inViewport, enterCount }) => {
                             <h2 className="title">Skills</h2>
                             <div className="section-des">
                                 <h3>
-                                    Main in category
+                                    In category
                                 </h3>
                             </div>
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in sat massa consectetur quisque. Nunc aces fames lectus in libero aliquet ertare feraso est lorem nunc dolor sit amet settera aces volutpat in voltare lupar est phasellus.
+                            I’m a front-end developer with 4 years of experience designing simple but efficient website for different
+                            companies and start-ups to help them present an attractive and distinct face of their organization.
                             </p>
-                            <p>
-                                Faucibus sed tristique fames sed aliquet ultricies eget viverra arcu. Vitae faucibus diam consequat aecenas. Turpis metus sit diam purus leo in varius ac quam. Nunc amet tristique set volutpat <a href="#">estars adipiscing</a> vulputate est phasellus. Volutpat faucibus per praesent aced nuncare voltare per settera lorem ipsum dolor.
-                            </p>
+                            
                         </div>
 
                         <ul className="serv-link-cover block-right">
@@ -48,16 +47,16 @@ const Skill = ({ inViewport, enterCount }) => {
                                     <img src={design} alt=""/>
                                     <h4>DESIGN</h4>
                                     <p>
-                                        A full stack allaround  designer that may or may not include a guide for specific createive
+                                    Web graphic design; user interface design; authoring; user experience design; and search engine optimization
                                     </p>
                             </div>
 
                             <div className="serv-block-item">
                                     <img src={development} alt=""/>
                                     <h4>DEVELOPMENT</h4>
-                                    <p>
-                                        A full stack allaround  designer that may or may not include a guide for specific createive
-                                    </p>
+                                <p>
+                                    Development of the graphical user interface of a website, standardised code and proprietary software
+                                </p>
                                 </div>
                             </div>
                         </div>
@@ -65,41 +64,42 @@ const Skill = ({ inViewport, enterCount }) => {
                 
                 <section className="section">
                     <div className="section-des">
-                        <h3>Skills in detail</h3>
+                        <h3>What I do </h3>
                       
                     </div>
                     <p className="content-670">
-                        Viverra tristique placerat in sat massa consectetur quisque. Nunc aces fames lectus in libero aliquet ertare feraso
-                        est lorem nunc dolor sit amet settera aces volutpat in voltare lupar est phasellus. Faucibus sed tristique fames sed aliquet
-                        ultricies eget viverra arcu.
+                        What I do is wireframe, style selection, mock-up and visualization for the website as well as consult my clients / stakeholders on how
+                        to make the website effective and impactful. I then perform the coding with the aim of making the website responsive for all
+                        kinds of devices. As a front-end developer, I always seek ways of optimizing the web pages and striking a balance between
+                        functional and aesthetic design as well as providing top quality ongoing maintenance.
                     </p>
 
                     <ul className="skills-history block-right">
                         <li>
-                            <span className="date">2016</span>
+                            <span className="date">2021</span>
                             <p>
-                                <strong>2015 - 2016</strong> placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet est setera nunc.
+                                <strong>Projects:</strong> Open Bulgaria- Nikkaran- KMedia- AHesign <br/><strong>Role:</strong> Frontenddeveloper
                             </p>
                         </li>
 
                         <li>
-                            <span className="date">2017</span>
+                            <span className="date">2020</span>
                             <p>
-                                <strong>2016 - 2017</strong> Turpis metus sit diam purus leo in variusquam. Nunc amet tristique volutpat adipiscing vulputate phasellus. Eget enim aliquam euismod mauris in vitae viverra blandit lectus diam feugiat.
+                                <strong>Projects:</strong> Nurident- DrNuri- BasalFix - AHesign  <br/><strong>Role:</strong> Frontenddeveloper
                             </p>
                         </li>
 
                         <li>
                             <span className="date">2019</span>
                             <p>
-                                <strong>2020 - 2021</strong> Nunc amet tristique volutpat adipiscing vulputate phasellus. Eget enim aliquam euismod.
+                                <strong>Projects:</strong> Gemos Imperia- Ayande Roshan <br/><strong>Role:</strong> Frontenddeveloper
                             </p>
                         </li>
 
                         <li>
-                            <span className="date">2023</span>
+                            <span className="date">2018</span>
                             <p>
-                                <strong>2022 - 2026</strong> Eget enim aliquam euismod mauris in vitae viverra blandit lectus faucibus diam consequat maecenas turpis metus sit diam purus leo in varius.
+                                <strong>Projects:</strong> Gemos Imperia <br/><strong>Role:</strong> WebDesigner | Frontenddeveloper
                             </p>
                         </li>
                     </ul>
@@ -169,7 +169,8 @@ const Skill = ({ inViewport, enterCount }) => {
 
                 </section>
             </>
-        );
+    );
+    
 }
  
 const Skills = handleViewport(Skill, /** options: {}, config: {} **/);

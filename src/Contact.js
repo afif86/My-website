@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import './main.css'
 import contact from './img/contact.png'
+import creditional from './Config';
 
 
 class Contact extends Component {
     state = {} 
     handleSubmit(e) {
         e.preventDefault()
-        console.log('injooo')
         let form = new FormData(e.target)
-        fetch('admin.ahdesign.website', {
+        fetch(creditional.emailAPI, {
             method: 'POST',
             body: form,          
-        }).then((res) =>  199 < res.status < 300 ? console.log('nashod'):console.log('shod'))
-          .catch((err) => console.log('errorish hasten')) 
+        }).then((res) =>  199 < res.status < 300 ? console.log('Success'):console.log('Failed'))
+          .catch((err) => console.log('Sth went wrong')) 
     }
 
     render() { 
@@ -21,11 +21,11 @@ class Contact extends Component {
             <section id="contact" className="section" data-num ='4'>
                     <h2 className="title">CONTACT</h2>
                     <div className="section-des">
-                        Lorem ipsum dolor sit amet consectetu adipiscing elit viverra tristique placerat.
+                        Need to know more about me? Or have any question?
                     </div>
                     <div className="content-670">
                         <p>
-                            Dolor sit amet, consectetur adipiscing elit. Viverra tristique placerat in massa consectetur quisque. Nunc ac fames lectus in libero aliquet lorem ipsum dolor sit amet enim est urus tincidunt magna ut turpis eu, eu enim. Nisl porttitor elit risus velit urna morbi mauris.
+                          Just fill the form and i will get back to you as soon as possible, or send me message via Email, or Social media.
                         </p>
                     </div>
 
