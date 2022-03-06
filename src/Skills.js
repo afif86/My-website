@@ -1,14 +1,11 @@
-import React, { Component, useContext } from 'react';
+import React from 'react';
 import './main.css'
 import design from './img/design.svg'
 import development from './img/development.svg'
 import Progressbar from './Progressbar'
-import handleViewport from 'react-in-viewport';
-import { NumContext } from './Numcontext/Numcontext';
 
-const Skill = ({ inViewport, enterCount }) => {
+const Skills = ({ inViewport, enterCount }) => {
 
-    const { number, setter } = useContext(NumContext)
       
     if (inViewport) { console.log('oomad')} 
     
@@ -172,6 +169,5 @@ const Skill = ({ inViewport, enterCount }) => {
     );
     
 }
- 
-const Skills = handleViewport(Skill, /** options: {}, config: {} **/);
+ ;
 export default Skills;

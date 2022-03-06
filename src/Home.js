@@ -1,12 +1,10 @@
-import React, { Component, useContext } from 'react';
+import React from 'react';
 import './main.css'
 import profile from './img/profile.jpg'
 import scroll from './img/scroll.svg'
-import { NumContext } from './Numcontext/Numcontext';
 
 
 const Home = () => {
-    const { number, setter } = useContext(NumContext)
      
         return (
             <>

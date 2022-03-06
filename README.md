@@ -34,7 +34,8 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Single page personal website with react.js. Note that each section of the website works as a part of a slider. 
+Single page application with react.js. A counter is used for the component when they come in viewport. Both Class components and Function components are used in this repo. To have access to state and other React features (in function components) i used hooks including: useState, useEffect and useRef. You can find a form in contact component which send the data.  
+
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
